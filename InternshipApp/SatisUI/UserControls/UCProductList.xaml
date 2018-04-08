@@ -1,0 +1,47 @@
+﻿<UserControl
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"     
+             xmlns:dx="http://schemas.devexpress.com/winfx/2008/xaml/core"
+             xmlns:local="clr-namespace:SatisUI.UserControls"
+             xmlns:dxg="http://schemas.devexpress.com/winfx/2008/xaml/grid"
+             xmlns:dxe="http://schemas.devexpress.com/winfx/2008/xaml/editors" x:Class="SatisUI.UserControls.UCProductList"
+    
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300" Loaded="UserControl_Loaded">
+    <Grid>
+
+        <dxg:GridControl x:Name="gridControl_ProductCardView" AutoGenerateColumns="None" EnableSmartColumnsGeneration="True" SelectionMode="Cell" SelectedItem="Urun">
+            <dxg:GridControl.View>
+                <dxg:CardView AllowEditing="False" AllowColumnMoving="False" NavigationStyle="Cell" ShowTotalSummary="True" CardAlignment="Near" FontSize="11" AllowLeaveFocusOnTab="False"
+                       ShowCardExpandButton="False"
+                           CardLayout="Rows" PrintMaximumCardColumns="4" ShowSelectionRectangle="True"/>
+            </dxg:GridControl.View>
+            <dxg:GridColumn x:Name="urunId" FieldName="UrunID" Visible="False"/>
+            <dxg:GridColumn x:Name="urunName" FieldName="UrunAd" Header="Ürün Adı"/>
+            <dxg:GridColumn FieldName="KategoriAdi" Header="Ürün Kategorisi"/>
+            <dxg:GridColumn FieldName="UrunStok" Header="Ürün Stok"/>
+            <dxg:GridColumn FieldName="UrunPic" Header="Ürün Foto" AllowColumnFiltering="False" ReadOnly="True" ShowInColumnChooser="False">
+
+                <dxg:GridColumn.EditSettings>
+                    <dxe:ImageEditSettings MaxWidth="75"></dxe:ImageEditSettings>
+                </dxg:GridColumn.EditSettings>
+            </dxg:GridColumn>
+            <dxg:GridColumn x:Name="urunFiyat" FieldName="UrunFiyat" Header="Ürün Fiyatı">
+                <dxg:GridColumn.EditSettings>
+                    <dxe:TextEditSettings DisplayFormat="$0" MaskType="Numeric" />
+                </dxg:GridColumn.EditSettings>
+            </dxg:GridColumn>
+            <dxg:GridColumn x:Name="column_sepetekle"  ShowInColumnChooser="True" FixedWidth="True">
+                <dxg:GridColumn.CellTemplate>
+                    <DataTemplate>
+                        <Button Tag="UrunID" Content="Sepete Ekle" Click="SepetEkle_Click" HorizontalAlignment="Center" VerticalAlignment="Bottom"/>
+                    </DataTemplate>
+                </dxg:GridColumn.CellTemplate>
+
+            </dxg:GridColumn>
+        </dxg:GridControl>
+
+    </Grid>
+</UserControl>

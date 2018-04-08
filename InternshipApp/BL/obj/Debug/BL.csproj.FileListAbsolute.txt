@@ -1,0 +1,54 @@
+C:\Users\user\source\repos\InternshipApp\BL\bin\Debug\BL.dll
+C:\Users\user\source\repos\InternshipApp\BL\bin\Debug\BL.pdb
+C:\Users\user\source\repos\InternshipApp\BL\bin\Debug\DAL.dll
+C:\Users\user\source\repos\InternshipApp\BL\bin\Debug\EntityFramework.dll
+C:\Users\user\source\repos\InternshipApp\BL\bin\Debug\DAL.pdb
+C:\Users\user\source\repos\InternshipApp\BL\bin\Debug\DAL.dll.config
+C:\Users\user\source\repos\InternshipApp\BL\bin\Debug\EntityFramework.xml
+C:\Users\user\source\repos\InternshipApp\BL\obj\Debug\BL.csprojResolveAssemblyReference.cache
+C:\Users\user\source\repos\InternshipApp\BL\obj\Debug\BL.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\InternshipApp\BL\obj\Debug\BL.dll
+C:\Users\user\source\repos\InternshipApp\BL\obj\Debug\BL.pdb
+C:\Users\user\source\repos\InternshipApp\BL\bin\Debug\NLog.config
+C:\Users\user\source\repos\InternshipApp\BL\bin\Debug\BL.dll.config
+C:\Users\user\source\repos\InternshipApp\BL\bin\Debug\NLog.dll
+C:\Users\user\source\repos\InternshipApp\BL\bin\Debug\NLog.xml
+C:\Users\user\source\repos\InternshipApp\BL\bin\Debug\Logging.dll
+C:\Users\user\source\repos\InternshipApp\BL\bin\Debug\Logging.pdb
+C:\Users\user\source\repos\InternshipApp\BL\bin\Debug\Logging.dll.config
+C:\Users\Merve\Desktop\InternshipApp\BL\bin\Debug\NLog.config
+C:\Users\Merve\Desktop\InternshipApp\BL\bin\Debug\BL.dll.config
+C:\Users\Merve\Desktop\InternshipApp\BL\bin\Debug\BL.dll
+C:\Users\Merve\Desktop\InternshipApp\BL\bin\Debug\BL.pdb
+C:\Users\Merve\Desktop\InternshipApp\BL\bin\Debug\DAL.dll
+C:\Users\Merve\Desktop\InternshipApp\BL\bin\Debug\Logging.dll
+C:\Users\Merve\Desktop\InternshipApp\BL\bin\Debug\NLog.dll
+C:\Users\Merve\Desktop\InternshipApp\BL\bin\Debug\EntityFramework.dll
+C:\Users\Merve\Desktop\InternshipApp\BL\bin\Debug\DAL.pdb
+C:\Users\Merve\Desktop\InternshipApp\BL\bin\Debug\DAL.dll.config
+C:\Users\Merve\Desktop\InternshipApp\BL\bin\Debug\Logging.pdb
+C:\Users\Merve\Desktop\InternshipApp\BL\bin\Debug\Logging.dll.config
+C:\Users\Merve\Desktop\InternshipApp\BL\bin\Debug\NLog.xml
+C:\Users\Merve\Desktop\InternshipApp\BL\bin\Debug\EntityFramework.xml
+C:\Users\Merve\Desktop\InternshipApp\BL\obj\Debug\BL.csprojResolveAssemblyReference.cache
+C:\Users\Merve\Desktop\InternshipApp\BL\obj\Debug\BL.csproj.CoreCompileInputs.cache
+C:\Users\Merve\Desktop\InternshipApp\BL\obj\Debug\BL.dll
+C:\Users\Merve\Desktop\InternshipApp\BL\obj\Debug\BL.pdb
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\BL\bin\Debug\NLog.config
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\BL\bin\Debug\BL.dll.config
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\BL\bin\Debug\BL.dll
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\BL\bin\Debug\BL.pdb
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\BL\bin\Debug\DAL.dll
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\BL\bin\Debug\Logging.dll
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\BL\bin\Debug\NLog.dll
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\BL\bin\Debug\EntityFramework.dll
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\BL\bin\Debug\DAL.pdb
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\BL\bin\Debug\DAL.dll.config
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\BL\bin\Debug\Logging.pdb
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\BL\bin\Debug\Logging.dll.config
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\BL\bin\Debug\NLog.xml
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\BL\bin\Debug\EntityFramework.xml
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\BL\obj\Debug\BL.csprojResolveAssemblyReference.cache
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\BL\obj\Debug\BL.csproj.CoreCompileInputs.cache
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\BL\obj\Debug\BL.dll
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\BL\obj\Debug\BL.pdb

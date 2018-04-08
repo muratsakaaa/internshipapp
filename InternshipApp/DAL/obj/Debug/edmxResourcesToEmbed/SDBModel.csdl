@@ -1,0 +1,212 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DAL" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="SDB" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Kategoris" EntityType="DAL.Kategori" />
+    <EntitySet Name="Musteris" EntityType="DAL.Musteri" />
+    <EntitySet Name="Personels" EntityType="DAL.Personel" />
+    <EntitySet Name="Roles" EntityType="DAL.Role" />
+    <EntitySet Name="Satis" EntityType="DAL.Sati" />
+    <EntitySet Name="SatisTotals" EntityType="DAL.SatisTotal" />
+    <EntitySet Name="sysdiagrams" EntityType="DAL.sysdiagram" />
+    <EntitySet Name="Uruns" EntityType="DAL.Urun" />
+    <EntitySet Name="Loggings" EntityType="DAL.Logging" />
+    <AssociationSet Name="FK_Product_Kategori" Association="DAL.FK_Product_Kategori">
+      <End Role="Kategori" EntitySet="Kategoris" />
+      <End Role="Urun" EntitySet="Uruns" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Satis_Musteri" Association="DAL.FK_Satis_Musteri">
+      <End Role="Musteri" EntitySet="Musteris" />
+      <End Role="Sati" EntitySet="Satis" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Personel_Role" Association="DAL.FK_Personel_Role">
+      <End Role="Role" EntitySet="Roles" />
+      <End Role="Personel" EntitySet="Personels" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Satis_Personel" Association="DAL.FK_Satis_Personel">
+      <End Role="Personel" EntitySet="Personels" />
+      <End Role="Sati" EntitySet="Satis" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Satis_Urun" Association="DAL.FK_Satis_Urun">
+      <End Role="Urun" EntitySet="Uruns" />
+      <End Role="Sati" EntitySet="Satis" />
+    </AssociationSet>
+    <AssociationSet Name="FK_SatisTotal_Satis" Association="DAL.FK_SatisTotal_Satis">
+      <End Role="Sati" EntitySet="Satis" />
+      <End Role="SatisTotal" EntitySet="SatisTotals" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Kategori">
+    <Key>
+      <PropertyRef Name="KategoriID" />
+    </Key>
+    <Property Name="KategoriID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="KategoriAdi" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Uruns" Relationship="DAL.FK_Product_Kategori" FromRole="Kategori" ToRole="Urun" />
+  </EntityType>
+  <EntityType Name="Musteri">
+    <Key>
+      <PropertyRef Name="MusteriID" />
+    </Key>
+    <Property Name="MusteriID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="MusteriAdi" Type="String" Nullable="false" MaxLength="25" FixedLength="false" Unicode="false" />
+    <Property Name="MusteriSoyadi" Type="String" Nullable="false" MaxLength="25" FixedLength="false" Unicode="false" />
+    <Property Name="MusteriAdres" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="MusteriTelNo" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Satis" Relationship="DAL.FK_Satis_Musteri" FromRole="Musteri" ToRole="Sati" />
+  </EntityType>
+  <EntityType Name="Personel">
+    <Key>
+      <PropertyRef Name="PersonelID" />
+    </Key>
+    <Property Name="PersonelID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="PersonelAd" Type="String" Nullable="false" MaxLength="25" FixedLength="false" Unicode="false" />
+    <Property Name="PersonelSoyad" Type="String" Nullable="false" MaxLength="25" FixedLength="false" Unicode="false" />
+    <Property Name="PersonelRoleID" Type="Int32" />
+    <Property Name="PersonelUsername" Type="String" MaxLength="25" FixedLength="false" Unicode="false" />
+    <Property Name="PersonelPassword" Type="String" MaxLength="25" FixedLength="false" Unicode="false" />
+    <Property Name="PersonelPic" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <NavigationProperty Name="Role" Relationship="DAL.FK_Personel_Role" FromRole="Personel" ToRole="Role" />
+    <NavigationProperty Name="Satis" Relationship="DAL.FK_Satis_Personel" FromRole="Personel" ToRole="Sati" />
+  </EntityType>
+  <EntityType Name="Role">
+    <Key>
+      <PropertyRef Name="RoleID" />
+    </Key>
+    <Property Name="RoleID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Role1" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Personels" Relationship="DAL.FK_Personel_Role" FromRole="Role" ToRole="Personel" />
+  </EntityType>
+  <EntityType Name="Sati">
+    <Key>
+      <PropertyRef Name="SatisID" />
+    </Key>
+    <Property Name="SatisID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="SatisPerID" Type="Int32" Nullable="false" />
+    <Property Name="SatisMusID" Type="Int32" Nullable="false" />
+    <Property Name="SatisTarih" Type="DateTime" Precision="3" />
+    <Property Name="SatisFiyat" Type="Decimal" Nullable="false" Precision="19" Scale="4" />
+    <Property Name="SatisAdet" Type="Int32" Nullable="false" />
+    <Property Name="SatisUrunID" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Musteri" Relationship="DAL.FK_Satis_Musteri" FromRole="Sati" ToRole="Musteri" />
+    <NavigationProperty Name="Personel" Relationship="DAL.FK_Satis_Personel" FromRole="Sati" ToRole="Personel" />
+    <NavigationProperty Name="Urun" Relationship="DAL.FK_Satis_Urun" FromRole="Sati" ToRole="Urun" />
+    <NavigationProperty Name="SatisTotals" Relationship="DAL.FK_SatisTotal_Satis" FromRole="Sati" ToRole="SatisTotal" />
+  </EntityType>
+  <EntityType Name="SatisTotal">
+    <Key>
+      <PropertyRef Name="SatisTotalID" />
+    </Key>
+    <Property Name="SatisTotalID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="SatisID" Type="Int32" Nullable="false" />
+    <Property Name="SatısTop" Type="Decimal" Nullable="false" Precision="18" Scale="0" />
+    <NavigationProperty Name="Sati" Relationship="DAL.FK_SatisTotal_Satis" FromRole="SatisTotal" ToRole="Sati" />
+  </EntityType>
+  <EntityType Name="sysdiagram">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Urun">
+    <Key>
+      <PropertyRef Name="UrunID" />
+    </Key>
+    <Property Name="UrunID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UrunAd" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="UrunKatID" Type="Int32" />
+    <Property Name="UrunKod" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="UrunStok" Type="Int32" Nullable="false" />
+    <Property Name="UrunFiyat" Type="Decimal" Nullable="false" Precision="18" Scale="0" />
+    <Property Name="UrunPic" Type="Binary" Nullable="false" MaxLength="Max" FixedLength="false" />
+    <NavigationProperty Name="Kategori" Relationship="DAL.FK_Product_Kategori" FromRole="Urun" ToRole="Kategori" />
+    <NavigationProperty Name="Satis" Relationship="DAL.FK_Satis_Urun" FromRole="Urun" ToRole="Sati" />
+  </EntityType>
+  <EntityType Name="Logging">
+    <Key>
+      <PropertyRef Name="LoggingID" />
+    </Key>
+    <Property Name="LoggingID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="LoggingLevel" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="LoggingDate" Type="DateTime" Precision="3" />
+    <Property Name="LoggingMessage" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="LoggingUnameMac" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="LoggingMacname" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="LoggingUnameApp" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <Association Name="FK_Product_Kategori">
+    <End Type="DAL.Kategori" Role="Kategori" Multiplicity="0..1" />
+    <End Type="DAL.Urun" Role="Urun" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Kategori">
+        <PropertyRef Name="KategoriID" />
+      </Principal>
+      <Dependent Role="Urun">
+        <PropertyRef Name="UrunKatID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Satis_Musteri">
+    <End Type="DAL.Musteri" Role="Musteri" Multiplicity="1" />
+    <End Type="DAL.Sati" Role="Sati" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Musteri">
+        <PropertyRef Name="MusteriID" />
+      </Principal>
+      <Dependent Role="Sati">
+        <PropertyRef Name="SatisMusID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Personel_Role">
+    <End Type="DAL.Role" Role="Role" Multiplicity="0..1" />
+    <End Type="DAL.Personel" Role="Personel" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Role">
+        <PropertyRef Name="RoleID" />
+      </Principal>
+      <Dependent Role="Personel">
+        <PropertyRef Name="PersonelRoleID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Satis_Personel">
+    <End Type="DAL.Personel" Role="Personel" Multiplicity="1" />
+    <End Type="DAL.Sati" Role="Sati" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Personel">
+        <PropertyRef Name="PersonelID" />
+      </Principal>
+      <Dependent Role="Sati">
+        <PropertyRef Name="SatisPerID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Satis_Urun">
+    <End Type="DAL.Urun" Role="Urun" Multiplicity="1" />
+    <End Type="DAL.Sati" Role="Sati" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Urun">
+        <PropertyRef Name="UrunID" />
+      </Principal>
+      <Dependent Role="Sati">
+        <PropertyRef Name="SatisUrunID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_SatisTotal_Satis">
+    <End Type="DAL.Sati" Role="Sati" Multiplicity="1" />
+    <End Type="DAL.SatisTotal" Role="SatisTotal" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Sati">
+        <PropertyRef Name="SatisID" />
+      </Principal>
+      <Dependent Role="SatisTotal">
+        <PropertyRef Name="SatisID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

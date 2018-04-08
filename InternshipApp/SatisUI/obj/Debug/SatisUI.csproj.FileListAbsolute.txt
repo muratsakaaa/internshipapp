@@ -1,0 +1,346 @@
+C:\Users\user\source\repos\InternshipApp\SatisUI\bin\Debug\SatisUI.exe.config
+C:\Users\user\source\repos\InternshipApp\SatisUI\bin\Debug\SatisUI.exe
+C:\Users\user\source\repos\InternshipApp\SatisUI\bin\Debug\SatisUI.pdb
+C:\Users\user\source\repos\InternshipApp\SatisUI\bin\Debug\BL.dll
+C:\Users\user\source\repos\InternshipApp\SatisUI\bin\Debug\DAL.dll
+C:\Users\user\source\repos\InternshipApp\SatisUI\bin\Debug\DevExpress.Data.v17.2.dll
+C:\Users\user\source\repos\InternshipApp\SatisUI\bin\Debug\DevExpress.Images.v17.2.dll
+C:\Users\user\source\repos\InternshipApp\SatisUI\bin\Debug\DevExpress.Mvvm.v17.2.dll
+C:\Users\user\source\repos\InternshipApp\SatisUI\bin\Debug\DevExpress.Printing.v17.2.Core.dll
+C:\Users\user\source\repos\InternshipApp\SatisUI\bin\Debug\DevExpress.Xpf.Controls.v17.2.dll
+C:\Users\user\source\repos\InternshipApp\SatisUI\bin\Debug\DevExpress.Xpf.Core.v17.2.dll
+C:\Users\user\source\repos\InternshipApp\SatisUI\bin\Debug\DevExpress.Xpf.Docking.v17.2.dll
+C:\Users\user\source\repos\InternshipApp\SatisUI\bin\Debug\DevExpress.Xpf.Grid.v17.2.Core.dll
+C:\Users\user\source\repos\InternshipApp\SatisUI\bin\Debug\DevExpress.Xpf.Grid.v17.2.dll
+C:\Users\user\source\repos\InternshipApp\SatisUI\bin\Debug\DevExpress.Xpf.Layout.v17.2.Core.dll
+C:\Users\user\source\repos\InternshipApp\SatisUI\bin\Debug\DevExpress.Xpf.LayoutControl.v17.2.dll
+C:\Users\user\source\repos\InternshipApp\SatisUI\bin\Debug\DevExpress.Xpf.NavBar.v17.2.dll
+C:\Users\user\source\repos\InternshipApp\SatisUI\bin\Debug\DevExpress.Xpf.PropertyGrid.v17.2.dll
+C:\Users\user\source\repos\InternshipApp\SatisUI\bin\Debug\DevExpress.Xpf.Ribbon.v17.2.dll
+C:\Users\user\source\repos\InternshipApp\SatisUI\bin\Debug\DevExpress.Xpf.Scheduling.v17.2.dll
+C:\Users\user\source\repos\InternshipApp\SatisUI\bin\Debug\DevExpress.Xpf.Themes.MetropolisDark.v17.2.dll
+C:\Users\user\source\repos\InternshipApp\SatisUI\bin\Debug\DevExpress.XtraScheduler.v17.2.Core.dll
+C:\Users\user\source\repos\InternshipApp\SatisUI\bin\Debug\EntityFramework.dll
+C:\Users\user\source\repos\InternshipApp\SatisUI\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\user\source\repos\InternshipApp\SatisUI\bin\Debug\Xceed.Wpf.AvalonDock.dll
+C:\Users\user\source\repos\InternshipApp\SatisUI\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+C:\Users\user\source\repos\InternshipApp\SatisUI\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+C:\Users\user\source\repos\InternshipApp\SatisUI\bin\Debug\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+C:\Users\user\source\repos\InternshipApp\SatisUI\bin\Debug\Xceed.Wpf.DataGrid.dll
+C:\Users\user\source\repos\InternshipApp\SatisUI\bin\Debug\Xceed.Wpf.Toolkit.dll
+C:\Users\user\source\repos\InternshipApp\SatisUI\bin\Debug\DevExpress.Pdf.v17.2.Core.dll
+C:\Users\user\source\repos\InternshipApp\SatisUI\bin\Debug\BL.pdb
+C:\Users\user\source\repos\InternshipApp\SatisUI\bin\Debug\DAL.pdb
+C:\Users\user\source\repos\InternshipApp\SatisUI\bin\Debug\DAL.dll.config
+C:\Users\user\source\repos\InternshipApp\SatisUI\bin\Debug\DevExpress.Data.v17.2.xml
+C:\Users\user\source\repos\InternshipApp\SatisUI\bin\Debug\DevExpress.Mvvm.v17.2.xml
+C:\Users\user\source\repos\InternshipApp\SatisUI\bin\Debug\DevExpress.Printing.v17.2.Core.xml
+C:\Users\user\source\repos\InternshipApp\SatisUI\bin\Debug\DevExpress.Xpf.Controls.v17.2.xml
+C:\Users\user\source\repos\InternshipApp\SatisUI\bin\Debug\DevExpress.Xpf.Core.v17.2.xml
+C:\Users\user\source\repos\InternshipApp\SatisUI\bin\Debug\DevExpress.Xpf.Docking.v17.2.xml
+C:\Users\user\source\repos\InternshipApp\SatisUI\bin\Debug\DevExpress.Xpf.Grid.v17.2.xml
+C:\Users\user\source\repos\InternshipApp\SatisUI\bin\Debug\DevExpress.Xpf.Grid.v17.2.Core.xml
+C:\Users\user\source\repos\InternshipApp\SatisUI\bin\Debug\DevExpress.Xpf.Layout.v17.2.Core.xml
+C:\Users\user\source\repos\InternshipApp\SatisUI\bin\Debug\DevExpress.Xpf.LayoutControl.v17.2.xml
+C:\Users\user\source\repos\InternshipApp\SatisUI\bin\Debug\DevExpress.Xpf.NavBar.v17.2.xml
+C:\Users\user\source\repos\InternshipApp\SatisUI\bin\Debug\DevExpress.Xpf.PropertyGrid.v17.2.xml
+C:\Users\user\source\repos\InternshipApp\SatisUI\bin\Debug\DevExpress.Xpf.Ribbon.v17.2.xml
+C:\Users\user\source\repos\InternshipApp\SatisUI\bin\Debug\DevExpress.Xpf.Scheduling.v17.2.xml
+C:\Users\user\source\repos\InternshipApp\SatisUI\bin\Debug\DevExpress.XtraScheduler.v17.2.Core.xml
+C:\Users\user\source\repos\InternshipApp\SatisUI\bin\Debug\EntityFramework.xml
+C:\Users\user\source\repos\InternshipApp\SatisUI\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\user\source\repos\InternshipApp\SatisUI\bin\Debug\DevExpress.Pdf.v17.2.Core.xml
+C:\Users\user\source\repos\InternshipApp\SatisUI\bin\Debug\de\DevExpress.Data.v17.2.resources.dll
+C:\Users\user\source\repos\InternshipApp\SatisUI\bin\Debug\es\DevExpress.Data.v17.2.resources.dll
+C:\Users\user\source\repos\InternshipApp\SatisUI\bin\Debug\ja\DevExpress.Data.v17.2.resources.dll
+C:\Users\user\source\repos\InternshipApp\SatisUI\bin\Debug\ru\DevExpress.Data.v17.2.resources.dll
+C:\Users\user\source\repos\InternshipApp\SatisUI\bin\Debug\de\DevExpress.Printing.v17.2.Core.resources.dll
+C:\Users\user\source\repos\InternshipApp\SatisUI\bin\Debug\es\DevExpress.Printing.v17.2.Core.resources.dll
+C:\Users\user\source\repos\InternshipApp\SatisUI\bin\Debug\ja\DevExpress.Printing.v17.2.Core.resources.dll
+C:\Users\user\source\repos\InternshipApp\SatisUI\bin\Debug\ru\DevExpress.Printing.v17.2.Core.resources.dll
+C:\Users\user\source\repos\InternshipApp\SatisUI\bin\Debug\de\DevExpress.Xpf.Controls.v17.2.resources.dll
+C:\Users\user\source\repos\InternshipApp\SatisUI\bin\Debug\es\DevExpress.Xpf.Controls.v17.2.resources.dll
+C:\Users\user\source\repos\InternshipApp\SatisUI\bin\Debug\ja\DevExpress.Xpf.Controls.v17.2.resources.dll
+C:\Users\user\source\repos\InternshipApp\SatisUI\bin\Debug\ru\DevExpress.Xpf.Controls.v17.2.resources.dll
+C:\Users\user\source\repos\InternshipApp\SatisUI\bin\Debug\de\DevExpress.Xpf.Core.v17.2.resources.dll
+C:\Users\user\source\repos\InternshipApp\SatisUI\bin\Debug\es\DevExpress.Xpf.Core.v17.2.resources.dll
+C:\Users\user\source\repos\InternshipApp\SatisUI\bin\Debug\ja\DevExpress.Xpf.Core.v17.2.resources.dll
+C:\Users\user\source\repos\InternshipApp\SatisUI\bin\Debug\ru\DevExpress.Xpf.Core.v17.2.resources.dll
+C:\Users\user\source\repos\InternshipApp\SatisUI\bin\Debug\de\DevExpress.Xpf.Docking.v17.2.resources.dll
+C:\Users\user\source\repos\InternshipApp\SatisUI\bin\Debug\es\DevExpress.Xpf.Docking.v17.2.resources.dll
+C:\Users\user\source\repos\InternshipApp\SatisUI\bin\Debug\ja\DevExpress.Xpf.Docking.v17.2.resources.dll
+C:\Users\user\source\repos\InternshipApp\SatisUI\bin\Debug\ru\DevExpress.Xpf.Docking.v17.2.resources.dll
+C:\Users\user\source\repos\InternshipApp\SatisUI\bin\Debug\de\DevExpress.Xpf.Grid.v17.2.Core.resources.dll
+C:\Users\user\source\repos\InternshipApp\SatisUI\bin\Debug\es\DevExpress.Xpf.Grid.v17.2.Core.resources.dll
+C:\Users\user\source\repos\InternshipApp\SatisUI\bin\Debug\ja\DevExpress.Xpf.Grid.v17.2.Core.resources.dll
+C:\Users\user\source\repos\InternshipApp\SatisUI\bin\Debug\ru\DevExpress.Xpf.Grid.v17.2.Core.resources.dll
+C:\Users\user\source\repos\InternshipApp\SatisUI\bin\Debug\de\DevExpress.Xpf.LayoutControl.v17.2.resources.dll
+C:\Users\user\source\repos\InternshipApp\SatisUI\bin\Debug\es\DevExpress.Xpf.LayoutControl.v17.2.resources.dll
+C:\Users\user\source\repos\InternshipApp\SatisUI\bin\Debug\ja\DevExpress.Xpf.LayoutControl.v17.2.resources.dll
+C:\Users\user\source\repos\InternshipApp\SatisUI\bin\Debug\ru\DevExpress.Xpf.LayoutControl.v17.2.resources.dll
+C:\Users\user\source\repos\InternshipApp\SatisUI\bin\Debug\de\DevExpress.Xpf.NavBar.v17.2.resources.dll
+C:\Users\user\source\repos\InternshipApp\SatisUI\bin\Debug\es\DevExpress.Xpf.NavBar.v17.2.resources.dll
+C:\Users\user\source\repos\InternshipApp\SatisUI\bin\Debug\ja\DevExpress.Xpf.NavBar.v17.2.resources.dll
+C:\Users\user\source\repos\InternshipApp\SatisUI\bin\Debug\ru\DevExpress.Xpf.NavBar.v17.2.resources.dll
+C:\Users\user\source\repos\InternshipApp\SatisUI\bin\Debug\de\DevExpress.Xpf.PropertyGrid.v17.2.resources.dll
+C:\Users\user\source\repos\InternshipApp\SatisUI\bin\Debug\es\DevExpress.Xpf.PropertyGrid.v17.2.resources.dll
+C:\Users\user\source\repos\InternshipApp\SatisUI\bin\Debug\ja\DevExpress.Xpf.PropertyGrid.v17.2.resources.dll
+C:\Users\user\source\repos\InternshipApp\SatisUI\bin\Debug\ru\DevExpress.Xpf.PropertyGrid.v17.2.resources.dll
+C:\Users\user\source\repos\InternshipApp\SatisUI\bin\Debug\de\DevExpress.Xpf.Ribbon.v17.2.resources.dll
+C:\Users\user\source\repos\InternshipApp\SatisUI\bin\Debug\es\DevExpress.Xpf.Ribbon.v17.2.resources.dll
+C:\Users\user\source\repos\InternshipApp\SatisUI\bin\Debug\ja\DevExpress.Xpf.Ribbon.v17.2.resources.dll
+C:\Users\user\source\repos\InternshipApp\SatisUI\bin\Debug\ru\DevExpress.Xpf.Ribbon.v17.2.resources.dll
+C:\Users\user\source\repos\InternshipApp\SatisUI\bin\Debug\de\DevExpress.XtraScheduler.v17.2.Core.resources.dll
+C:\Users\user\source\repos\InternshipApp\SatisUI\bin\Debug\es\DevExpress.XtraScheduler.v17.2.Core.resources.dll
+C:\Users\user\source\repos\InternshipApp\SatisUI\bin\Debug\ja\DevExpress.XtraScheduler.v17.2.Core.resources.dll
+C:\Users\user\source\repos\InternshipApp\SatisUI\bin\Debug\ru\DevExpress.XtraScheduler.v17.2.Core.resources.dll
+C:\Users\user\source\repos\InternshipApp\SatisUI\bin\Debug\de\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\user\source\repos\InternshipApp\SatisUI\bin\Debug\es\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\user\source\repos\InternshipApp\SatisUI\bin\Debug\fr\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\user\source\repos\InternshipApp\SatisUI\bin\Debug\hu\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\user\source\repos\InternshipApp\SatisUI\bin\Debug\it\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\user\source\repos\InternshipApp\SatisUI\bin\Debug\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\user\source\repos\InternshipApp\SatisUI\bin\Debug\ro\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\user\source\repos\InternshipApp\SatisUI\bin\Debug\ru\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\user\source\repos\InternshipApp\SatisUI\bin\Debug\sv\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\user\source\repos\InternshipApp\SatisUI\bin\Debug\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\user\source\repos\InternshipApp\SatisUI\bin\Debug\de\DevExpress.Pdf.v17.2.Core.resources.dll
+C:\Users\user\source\repos\InternshipApp\SatisUI\bin\Debug\es\DevExpress.Pdf.v17.2.Core.resources.dll
+C:\Users\user\source\repos\InternshipApp\SatisUI\bin\Debug\ja\DevExpress.Pdf.v17.2.Core.resources.dll
+C:\Users\user\source\repos\InternshipApp\SatisUI\bin\Debug\ru\DevExpress.Pdf.v17.2.Core.resources.dll
+C:\Users\user\source\repos\InternshipApp\SatisUI\obj\Debug\SatisUI.csprojResolveAssemblyReference.cache
+C:\Users\user\source\repos\InternshipApp\SatisUI\obj\Debug\UserControls\CustomerUserControl.g.cs
+C:\Users\user\source\repos\InternshipApp\SatisUI\obj\Debug\UserControls\ProductUserControl.g.cs
+C:\Users\user\source\repos\InternshipApp\SatisUI\obj\Debug\UserControls\UCProductList.g.cs
+C:\Users\user\source\repos\InternshipApp\SatisUI\obj\Debug\UserControls\UCReport.g.cs
+C:\Users\user\source\repos\InternshipApp\SatisUI\obj\Debug\UserControls\UCSepet.g.cs
+C:\Users\user\source\repos\InternshipApp\SatisUI\obj\Debug\Views\LoginWindow.g.cs
+C:\Users\user\source\repos\InternshipApp\SatisUI\obj\Debug\Views\MainWindow.g.cs
+C:\Users\user\source\repos\InternshipApp\SatisUI\obj\Debug\UserControls\PersonalUserControl.g.cs
+C:\Users\user\source\repos\InternshipApp\SatisUI\obj\Debug\Views\App.g.cs
+C:\Users\user\source\repos\InternshipApp\SatisUI\obj\Debug\SatisUI_MarkupCompile.cache
+C:\Users\user\source\repos\InternshipApp\SatisUI\obj\Debug\SatisUI_MarkupCompile.lref
+C:\Users\user\source\repos\InternshipApp\SatisUI\obj\Debug\UserControls\CustomerUserControl.baml
+C:\Users\user\source\repos\InternshipApp\SatisUI\obj\Debug\UserControls\ProductUserControl.baml
+C:\Users\user\source\repos\InternshipApp\SatisUI\obj\Debug\UserControls\UCProductList.baml
+C:\Users\user\source\repos\InternshipApp\SatisUI\obj\Debug\UserControls\UCReport.baml
+C:\Users\user\source\repos\InternshipApp\SatisUI\obj\Debug\UserControls\UCSepet.baml
+C:\Users\user\source\repos\InternshipApp\SatisUI\obj\Debug\Views\LoginWindow.baml
+C:\Users\user\source\repos\InternshipApp\SatisUI\obj\Debug\Views\MainWindow.baml
+C:\Users\user\source\repos\InternshipApp\SatisUI\obj\Debug\UserControls\PersonalUserControl.baml
+C:\Users\user\source\repos\InternshipApp\SatisUI\obj\Debug\SatisUI.g.resources
+C:\Users\user\source\repos\InternshipApp\SatisUI\obj\Debug\SatisUI.Properties.Resources.resources
+C:\Users\user\source\repos\InternshipApp\SatisUI\obj\Debug\SatisUI.csproj.GenerateResource.Cache
+C:\Users\user\source\repos\InternshipApp\SatisUI\obj\Debug\SatisUI.exe.licenses
+C:\Users\user\source\repos\InternshipApp\SatisUI\obj\Debug\SatisUI.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\InternshipApp\SatisUI\obj\Debug\SatisUI.exe
+C:\Users\user\source\repos\InternshipApp\SatisUI\obj\Debug\SatisUI.pdb
+C:\Users\user\source\repos\InternshipApp\SatisUI\bin\Debug\NLog.config
+C:\Users\user\source\repos\InternshipApp\SatisUI\bin\Debug\NLog.dll
+C:\Users\user\source\repos\InternshipApp\SatisUI\bin\Debug\BL.dll.config
+C:\Users\user\source\repos\InternshipApp\SatisUI\bin\Debug\NLog.xml
+C:\Users\user\source\repos\InternshipApp\SatisUI\obj\Debug\SatisUI_Content.g.cs
+C:\Users\user\source\repos\InternshipApp\SatisUI\bin\Debug\Logging.dll
+C:\Users\user\source\repos\InternshipApp\SatisUI\bin\Debug\Logging.pdb
+C:\Users\user\source\repos\InternshipApp\SatisUI\bin\Debug\Logging.dll.config
+C:\Users\Merve\Desktop\InternshipApp\SatisUI\bin\Debug\SatisUI.exe.config
+C:\Users\Merve\Desktop\InternshipApp\SatisUI\obj\Debug\SatisUI.exe
+C:\Users\Merve\Desktop\InternshipApp\SatisUI\obj\Debug\SatisUI.pdb
+C:\Users\Merve\Desktop\InternshipApp\SatisUI\obj\Debug\SatisUI.csprojResolveAssemblyReference.cache
+C:\Users\Merve\Desktop\InternshipApp\SatisUI\obj\Debug\UserControls\CustomerUserControl.g.cs
+C:\Users\Merve\Desktop\InternshipApp\SatisUI\obj\Debug\UserControls\ProductUserControl.g.cs
+C:\Users\Merve\Desktop\InternshipApp\SatisUI\obj\Debug\UserControls\UCProductList.g.cs
+C:\Users\Merve\Desktop\InternshipApp\SatisUI\obj\Debug\UserControls\UCReport.g.cs
+C:\Users\Merve\Desktop\InternshipApp\SatisUI\obj\Debug\UserControls\UCSepet.g.cs
+C:\Users\Merve\Desktop\InternshipApp\SatisUI\obj\Debug\Views\LoginWindow.g.cs
+C:\Users\Merve\Desktop\InternshipApp\SatisUI\obj\Debug\Views\MainWindow.g.cs
+C:\Users\Merve\Desktop\InternshipApp\SatisUI\obj\Debug\UserControls\PersonalUserControl.g.cs
+C:\Users\Merve\Desktop\InternshipApp\SatisUI\obj\Debug\Views\App.g.cs
+C:\Users\Merve\Desktop\InternshipApp\SatisUI\obj\Debug\SatisUI_Content.g.cs
+C:\Users\Merve\Desktop\InternshipApp\SatisUI\obj\Debug\SatisUI_MarkupCompile.cache
+C:\Users\Merve\Desktop\InternshipApp\SatisUI\obj\Debug\SatisUI_MarkupCompile.lref
+C:\Users\Merve\Desktop\InternshipApp\SatisUI\obj\Debug\UserControls\CustomerUserControl.baml
+C:\Users\Merve\Desktop\InternshipApp\SatisUI\obj\Debug\UserControls\ProductUserControl.baml
+C:\Users\Merve\Desktop\InternshipApp\SatisUI\obj\Debug\UserControls\UCProductList.baml
+C:\Users\Merve\Desktop\InternshipApp\SatisUI\obj\Debug\UserControls\UCReport.baml
+C:\Users\Merve\Desktop\InternshipApp\SatisUI\obj\Debug\UserControls\UCSepet.baml
+C:\Users\Merve\Desktop\InternshipApp\SatisUI\obj\Debug\Views\LoginWindow.baml
+C:\Users\Merve\Desktop\InternshipApp\SatisUI\obj\Debug\Views\MainWindow.baml
+C:\Users\Merve\Desktop\InternshipApp\SatisUI\obj\Debug\UserControls\PersonalUserControl.baml
+C:\Users\Merve\Desktop\InternshipApp\SatisUI\obj\Debug\SatisUI.g.resources
+C:\Users\Merve\Desktop\InternshipApp\SatisUI\obj\Debug\SatisUI.Properties.Resources.resources
+C:\Users\Merve\Desktop\InternshipApp\SatisUI\obj\Debug\SatisUI.csproj.GenerateResource.Cache
+C:\Users\Merve\Desktop\InternshipApp\SatisUI\obj\Debug\SatisUI.exe.licenses
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\SatisUI\bin\Debug\NLog.config
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\SatisUI\bin\Debug\SatisUI.exe.config
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\SatisUI\bin\Debug\SatisUI.exe
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\SatisUI\bin\Debug\SatisUI.pdb
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\SatisUI\bin\Debug\BL.dll
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\SatisUI\bin\Debug\DAL.dll
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\SatisUI\bin\Debug\DevExpress.Data.v17.2.dll
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\SatisUI\bin\Debug\DevExpress.Images.v17.2.dll
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\SatisUI\bin\Debug\DevExpress.Mvvm.v17.2.dll
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\SatisUI\bin\Debug\DevExpress.Printing.v17.2.Core.dll
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\SatisUI\bin\Debug\DevExpress.Xpf.Controls.v17.2.dll
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\SatisUI\bin\Debug\DevExpress.Xpf.Core.v17.2.dll
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\SatisUI\bin\Debug\DevExpress.Xpf.Docking.v17.2.dll
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\SatisUI\bin\Debug\DevExpress.Xpf.Grid.v17.2.Core.dll
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\SatisUI\bin\Debug\DevExpress.Xpf.Grid.v17.2.dll
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\SatisUI\bin\Debug\DevExpress.Xpf.Layout.v17.2.Core.dll
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\SatisUI\bin\Debug\DevExpress.Xpf.LayoutControl.v17.2.dll
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\SatisUI\bin\Debug\DevExpress.Xpf.NavBar.v17.2.dll
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\SatisUI\bin\Debug\DevExpress.Xpf.Printing.v17.2.dll
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\SatisUI\bin\Debug\DevExpress.Xpf.PropertyGrid.v17.2.dll
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\SatisUI\bin\Debug\DevExpress.Xpf.Ribbon.v17.2.dll
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\SatisUI\bin\Debug\DevExpress.Xpf.Scheduling.v17.2.dll
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\SatisUI\bin\Debug\DevExpress.Xpf.Themes.MetropolisDark.v17.2.dll
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\SatisUI\bin\Debug\DevExpress.XtraScheduler.v17.2.Core.dll
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\SatisUI\bin\Debug\EntityFramework.dll
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\SatisUI\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\SatisUI\bin\Debug\Logging.dll
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\SatisUI\bin\Debug\NLog.dll
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\SatisUI\bin\Debug\Xceed.Wpf.AvalonDock.dll
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\SatisUI\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\SatisUI\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\SatisUI\bin\Debug\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\SatisUI\bin\Debug\Xceed.Wpf.DataGrid.dll
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\SatisUI\bin\Debug\Xceed.Wpf.Toolkit.dll
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\SatisUI\bin\Debug\DevExpress.Pdf.v17.2.Core.dll
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\SatisUI\bin\Debug\DevExpress.Xpf.DocumentViewer.v17.2.Core.dll
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\SatisUI\bin\Debug\DevExpress.RichEdit.v17.2.Core.dll
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\SatisUI\bin\Debug\DevExpress.Office.v17.2.Core.dll
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\SatisUI\bin\Debug\BL.pdb
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\SatisUI\bin\Debug\BL.dll.config
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\SatisUI\bin\Debug\DAL.pdb
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\SatisUI\bin\Debug\DAL.dll.config
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\SatisUI\bin\Debug\Logging.pdb
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\SatisUI\bin\Debug\Logging.dll.config
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\SatisUI\bin\Debug\DevExpress.Data.v17.2.xml
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\SatisUI\bin\Debug\DevExpress.Mvvm.v17.2.xml
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\SatisUI\bin\Debug\DevExpress.Printing.v17.2.Core.xml
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\SatisUI\bin\Debug\DevExpress.Xpf.Controls.v17.2.xml
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\SatisUI\bin\Debug\DevExpress.Xpf.Core.v17.2.xml
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\SatisUI\bin\Debug\DevExpress.Xpf.Docking.v17.2.xml
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\SatisUI\bin\Debug\DevExpress.Xpf.Printing.v17.2.xml
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\SatisUI\bin\Debug\DevExpress.Xpf.Grid.v17.2.xml
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\SatisUI\bin\Debug\DevExpress.Xpf.Grid.v17.2.Core.xml
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\SatisUI\bin\Debug\DevExpress.Xpf.Layout.v17.2.Core.xml
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\SatisUI\bin\Debug\DevExpress.Xpf.LayoutControl.v17.2.xml
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\SatisUI\bin\Debug\DevExpress.Xpf.NavBar.v17.2.xml
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\SatisUI\bin\Debug\DevExpress.Xpf.PropertyGrid.v17.2.xml
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\SatisUI\bin\Debug\DevExpress.Xpf.Ribbon.v17.2.xml
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\SatisUI\bin\Debug\DevExpress.Xpf.Scheduling.v17.2.xml
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\SatisUI\bin\Debug\DevExpress.XtraScheduler.v17.2.Core.xml
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\SatisUI\bin\Debug\EntityFramework.xml
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\SatisUI\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\SatisUI\bin\Debug\NLog.xml
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\SatisUI\bin\Debug\DevExpress.Pdf.v17.2.Core.xml
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\SatisUI\bin\Debug\DevExpress.Xpf.DocumentViewer.v17.2.Core.xml
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\SatisUI\bin\Debug\DevExpress.RichEdit.v17.2.Core.xml
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\SatisUI\bin\Debug\DevExpress.Office.v17.2.Core.xml
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\SatisUI\bin\Debug\de\DevExpress.Data.v17.2.resources.dll
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\SatisUI\bin\Debug\es\DevExpress.Data.v17.2.resources.dll
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\SatisUI\bin\Debug\ja\DevExpress.Data.v17.2.resources.dll
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\SatisUI\bin\Debug\ru\DevExpress.Data.v17.2.resources.dll
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\SatisUI\bin\Debug\de\DevExpress.Printing.v17.2.Core.resources.dll
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\SatisUI\bin\Debug\es\DevExpress.Printing.v17.2.Core.resources.dll
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\SatisUI\bin\Debug\ja\DevExpress.Printing.v17.2.Core.resources.dll
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\SatisUI\bin\Debug\ru\DevExpress.Printing.v17.2.Core.resources.dll
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\SatisUI\bin\Debug\de\DevExpress.Xpf.Controls.v17.2.resources.dll
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\SatisUI\bin\Debug\es\DevExpress.Xpf.Controls.v17.2.resources.dll
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\SatisUI\bin\Debug\ja\DevExpress.Xpf.Controls.v17.2.resources.dll
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\SatisUI\bin\Debug\ru\DevExpress.Xpf.Controls.v17.2.resources.dll
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\SatisUI\bin\Debug\de\DevExpress.Xpf.Core.v17.2.resources.dll
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\SatisUI\bin\Debug\es\DevExpress.Xpf.Core.v17.2.resources.dll
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\SatisUI\bin\Debug\ja\DevExpress.Xpf.Core.v17.2.resources.dll
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\SatisUI\bin\Debug\ru\DevExpress.Xpf.Core.v17.2.resources.dll
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\SatisUI\bin\Debug\de\DevExpress.Xpf.Docking.v17.2.resources.dll
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\SatisUI\bin\Debug\es\DevExpress.Xpf.Docking.v17.2.resources.dll
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\SatisUI\bin\Debug\ja\DevExpress.Xpf.Docking.v17.2.resources.dll
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\SatisUI\bin\Debug\ru\DevExpress.Xpf.Docking.v17.2.resources.dll
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\SatisUI\bin\Debug\de\DevExpress.Xpf.Printing.v17.2.resources.dll
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\SatisUI\bin\Debug\es\DevExpress.Xpf.Printing.v17.2.resources.dll
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\SatisUI\bin\Debug\ja\DevExpress.Xpf.Printing.v17.2.resources.dll
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\SatisUI\bin\Debug\ru\DevExpress.Xpf.Printing.v17.2.resources.dll
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\SatisUI\bin\Debug\de\DevExpress.Xpf.Grid.v17.2.Core.resources.dll
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\SatisUI\bin\Debug\es\DevExpress.Xpf.Grid.v17.2.Core.resources.dll
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\SatisUI\bin\Debug\ja\DevExpress.Xpf.Grid.v17.2.Core.resources.dll
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\SatisUI\bin\Debug\ru\DevExpress.Xpf.Grid.v17.2.Core.resources.dll
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\SatisUI\bin\Debug\de\DevExpress.Xpf.LayoutControl.v17.2.resources.dll
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\SatisUI\bin\Debug\es\DevExpress.Xpf.LayoutControl.v17.2.resources.dll
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\SatisUI\bin\Debug\ja\DevExpress.Xpf.LayoutControl.v17.2.resources.dll
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\SatisUI\bin\Debug\ru\DevExpress.Xpf.LayoutControl.v17.2.resources.dll
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\SatisUI\bin\Debug\de\DevExpress.Xpf.NavBar.v17.2.resources.dll
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\SatisUI\bin\Debug\es\DevExpress.Xpf.NavBar.v17.2.resources.dll
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\SatisUI\bin\Debug\ja\DevExpress.Xpf.NavBar.v17.2.resources.dll
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\SatisUI\bin\Debug\ru\DevExpress.Xpf.NavBar.v17.2.resources.dll
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\SatisUI\bin\Debug\de\DevExpress.Xpf.PropertyGrid.v17.2.resources.dll
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\SatisUI\bin\Debug\es\DevExpress.Xpf.PropertyGrid.v17.2.resources.dll
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\SatisUI\bin\Debug\ja\DevExpress.Xpf.PropertyGrid.v17.2.resources.dll
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\SatisUI\bin\Debug\ru\DevExpress.Xpf.PropertyGrid.v17.2.resources.dll
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\SatisUI\bin\Debug\de\DevExpress.Xpf.Ribbon.v17.2.resources.dll
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\SatisUI\bin\Debug\es\DevExpress.Xpf.Ribbon.v17.2.resources.dll
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\SatisUI\bin\Debug\ja\DevExpress.Xpf.Ribbon.v17.2.resources.dll
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\SatisUI\bin\Debug\ru\DevExpress.Xpf.Ribbon.v17.2.resources.dll
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\SatisUI\bin\Debug\de\DevExpress.Xpf.Scheduling.v17.2.resources.dll
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\SatisUI\bin\Debug\es\DevExpress.Xpf.Scheduling.v17.2.resources.dll
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\SatisUI\bin\Debug\ja\DevExpress.Xpf.Scheduling.v17.2.resources.dll
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\SatisUI\bin\Debug\ru\DevExpress.Xpf.Scheduling.v17.2.resources.dll
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\SatisUI\bin\Debug\de\DevExpress.XtraScheduler.v17.2.Core.resources.dll
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\SatisUI\bin\Debug\es\DevExpress.XtraScheduler.v17.2.Core.resources.dll
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\SatisUI\bin\Debug\ja\DevExpress.XtraScheduler.v17.2.Core.resources.dll
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\SatisUI\bin\Debug\ru\DevExpress.XtraScheduler.v17.2.Core.resources.dll
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\SatisUI\bin\Debug\de\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\SatisUI\bin\Debug\es\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\SatisUI\bin\Debug\fr\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\SatisUI\bin\Debug\hu\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\SatisUI\bin\Debug\it\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\SatisUI\bin\Debug\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\SatisUI\bin\Debug\ro\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\SatisUI\bin\Debug\ru\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\SatisUI\bin\Debug\sv\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\SatisUI\bin\Debug\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\SatisUI\bin\Debug\de\DevExpress.Pdf.v17.2.Core.resources.dll
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\SatisUI\bin\Debug\es\DevExpress.Pdf.v17.2.Core.resources.dll
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\SatisUI\bin\Debug\ja\DevExpress.Pdf.v17.2.Core.resources.dll
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\SatisUI\bin\Debug\ru\DevExpress.Pdf.v17.2.Core.resources.dll
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\SatisUI\bin\Debug\de\DevExpress.Xpf.DocumentViewer.v17.2.Core.resources.dll
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\SatisUI\bin\Debug\es\DevExpress.Xpf.DocumentViewer.v17.2.Core.resources.dll
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\SatisUI\bin\Debug\ja\DevExpress.Xpf.DocumentViewer.v17.2.Core.resources.dll
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\SatisUI\bin\Debug\ru\DevExpress.Xpf.DocumentViewer.v17.2.Core.resources.dll
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\SatisUI\bin\Debug\de\DevExpress.RichEdit.v17.2.Core.resources.dll
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\SatisUI\bin\Debug\es\DevExpress.RichEdit.v17.2.Core.resources.dll
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\SatisUI\bin\Debug\ja\DevExpress.RichEdit.v17.2.Core.resources.dll
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\SatisUI\bin\Debug\ru\DevExpress.RichEdit.v17.2.Core.resources.dll
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\SatisUI\bin\Debug\de\DevExpress.Office.v17.2.Core.resources.dll
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\SatisUI\bin\Debug\es\DevExpress.Office.v17.2.Core.resources.dll
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\SatisUI\bin\Debug\ja\DevExpress.Office.v17.2.Core.resources.dll
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\SatisUI\bin\Debug\ru\DevExpress.Office.v17.2.Core.resources.dll
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\SatisUI\obj\Debug\SatisUI.csprojResolveAssemblyReference.cache
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\SatisUI\obj\Debug\UserControls\CustomerUserControl.g.cs
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\SatisUI\obj\Debug\UserControls\ProductUserControl.g.cs
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\SatisUI\obj\Debug\UserControls\UCProductList.g.cs
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\SatisUI\obj\Debug\UserControls\UCReport.g.cs
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\SatisUI\obj\Debug\UserControls\UCSepet.g.cs
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\SatisUI\obj\Debug\Views\LoginWindow.g.cs
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\SatisUI\obj\Debug\Views\MainWindow.g.cs
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\SatisUI\obj\Debug\UserControls\PersonalUserControl.g.cs
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\SatisUI\obj\Debug\Views\App.g.cs
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\SatisUI\obj\Debug\SatisUI_Content.g.cs
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\SatisUI\obj\Debug\SatisUI_MarkupCompile.cache
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\SatisUI\obj\Debug\SatisUI_MarkupCompile.lref
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\SatisUI\obj\Debug\UserControls\CustomerUserControl.baml
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\SatisUI\obj\Debug\UserControls\ProductUserControl.baml
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\SatisUI\obj\Debug\UserControls\UCProductList.baml
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\SatisUI\obj\Debug\UserControls\UCReport.baml
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\SatisUI\obj\Debug\UserControls\UCSepet.baml
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\SatisUI\obj\Debug\Views\LoginWindow.baml
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\SatisUI\obj\Debug\Views\MainWindow.baml
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\SatisUI\obj\Debug\UserControls\PersonalUserControl.baml
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\SatisUI\obj\Debug\SatisUI.g.resources
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\SatisUI\obj\Debug\SatisUI.Properties.Resources.resources
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\SatisUI\obj\Debug\SatisUI.csproj.GenerateResource.Cache
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\SatisUI\obj\Debug\SatisUI.exe.licenses
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\SatisUI\obj\Debug\SatisUI.csproj.CoreCompileInputs.cache
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\SatisUI\obj\Debug\SatisUI.exe
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\SatisUI\obj\Debug\SatisUI.pdb

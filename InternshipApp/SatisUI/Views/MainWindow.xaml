@@ -1,0 +1,84 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SatisUI"
+        xmlns:dxb="http://schemas.devexpress.com/winfx/2008/xaml/bars" xmlns:dxdo="http://schemas.devexpress.com/winfx/2008/xaml/docking" xmlns:dxr="http://schemas.devexpress.com/winfx/2008/xaml/ribbon" xmlns:dx="http://schemas.devexpress.com/winfx/2008/xaml/core" xmlns:dxn="http://schemas.devexpress.com/winfx/2008/xaml/navbar" x:Class="SatisUI.MainWindow"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="600" Width="1000">
+   
+        
+        
+        <Grid x:Name="ManinWindow" Loaded="ManinWindow_Loaded">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="*"/>
+
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <dxb:BarManager Grid.Column="0" Grid.Row="0"  >
+
+                <dxr:RibbonControl   x:Name="RibbonControl" HorizontalAlignment="Stretch"  >
+                    <dxr:RibbonDefaultPageCategory>
+                        <dxr:RibbonPage Caption="Home" x:Name="Ribbonpage_Home">
+                            <dxr:RibbonPageGroup IsEnabled="False" x:Name="RibbonPageGroup_Home" Glyph="{dx:DXImage Image=Save_32x32.png}" Caption="{x:Null}">
+                                <dxb:BarButtonItem x:Name="saveButton" Content="SAVE" Tag="AddNewItem" LargeGlyph="{dx:DXImage Image=Save_32x32.png}" ItemClick="RibbonItem_Click" RibbonStyle="All"/>
+
+                                <dxb:BarButtonItem x:Name="AddButton" Content="ADD" Tag="NewRecord" LargeGlyph="{dx:DXImage Image=Add_32x32.png}" ItemClick="RibbonItem_Click"/>
+
+                                <dxb:BarButtonItem x:Name="editButton" Content="EDIT" Tag="EditItem" LargeGlyph="{dx:DXImage Image=Edit_32x32.png}" ItemClick="RibbonItem_Click"/>
+
+                                <dxb:BarButtonItem x:Name="deleteButton" Content="DELETE" Tag="DeleteItem" LargeGlyph="{dx:DXImage Image=Delete_32x32.png}" ItemClick="RibbonItem_Click"/>
+
+                                <dxb:BarButtonItem x:Name="cancelButton" Content="CANCEL" Tag="CancelItem" LargeGlyph="{dx:DXImage Image=Cancel_32x32.png}" ItemClick="RibbonItem_Click"/>
+                            </dxr:RibbonPageGroup>
+                        <dxr:RibbonPageGroup Caption="{x:Null}" x:Name="Ribbonpage_Logout" IsCaptionButtonEnabled="False">
+
+                            <dxb:BarButtonItem x:Name="btn_Logout" Content="LogOut" Tag="Logout" LargeGlyph="{dx:DXImage Image=BOPermission_32x32.png}" ItemClick="btn_Logout_ItemClick" Glyph="{dx:DXImage Image=BOPermission_16x16.png}"/>
+                        </dxr:RibbonPageGroup>
+                    </dxr:RibbonPage>
+                        <dxr:RibbonPage Caption="Alım Satım" x:Name="Ribbonpage_AlimSatim">
+                        <dxr:RibbonPageGroup>
+                            <dxb:BarButtonItem x:Name="basketAdd" Content="SEPET" ItemClick="basketAdd_ItemClick" Tag="BasketShow" LargeGlyph="{dx:DXImage Image=BOOrderItem_32x32.png}" Glyph="{dx:DXImage Image=BOOrderItem_16x16.png}" Alignment="Far"/>
+                            <dxb:BarButtonItem IsEnabled="False" x:Name="AcceptBasket" Content="Sepeti Onayla" ItemClick="AcceptBasket_ItemClick"  LargeGlyph="{dx:DXImage Image=Apply_32x32.png}" Alignment="Far" Glyph="{dx:DXImage Image=Apply_32x32.png}" Tag="AcceptedBasket" />
+                            <dxb:BarButtonItem IsEnabled="False" x:Name="CancelBasket" Content="Sepet İptal" ItemClick="CancelBasket_ItemClick"  LargeGlyph="{dx:DXImage Image=Cancel_32x32.png}" Glyph="{dx:DXImage Image=BOOrderItem_16x16.png}" Alignment="Far"/>
+                        </dxr:RibbonPageGroup>
+                    </dxr:RibbonPage>
+                    </dxr:RibbonDefaultPageCategory>
+                </dxr:RibbonControl>
+
+            </dxb:BarManager>
+
+        <dxdo:DockLayoutManager Grid.Row="1" >
+            <dxdo:LayoutGroup  Caption="LayoutRoot" >
+                <dxdo:LayoutPanel  x:Name="definePanel"  ShowBorder="False" MinWidth="0" BorderBrush="{x:Null}" ItemWidth="Auto" >
+                    <dxn:NavBarControl  MaxWidth="200" AllowSelectDisabledItem="False" AllowDrop="False" >
+                        <dxn:NavBarGroup x:Name="navBar_tanimGroup" Header="Tanımlar">
+                            <dxn:NavBarItem x:Name="navBar_uruntanim" Content="Ürün Tanımlama" Click="navBar_uruntanim_Click"/>
+                            <dxn:NavBarItem x:Name="navBar_personeltanim" Content="Personel Tanımlama" Click="navBar_personeltanim_Click"/>
+                            <dxn:NavBarItem x:Name="navBar_musteritanim" Content="Müşteri Tanımlama" Click="navBar_musteritanim_Click" />
+                        </dxn:NavBarGroup>
+                        <dxn:NavBarGroup x:Name="navBar_listGroup" Header="Listele">
+                            <dxn:NavBarItem x:Name="navBar_urunList" Content="Ürün Listele" Click="navBar_urunList_Click"/>
+                            <dxn:NavBarItem x:Name="navBar_raporList" Content="Rapor Listele" Click="navBar_raporList_Click"/>
+                        </dxn:NavBarGroup>
+                    </dxn:NavBarControl>
+
+                </dxdo:LayoutPanel>
+                <dxdo:LayoutPanel>
+                    <dx:DXTabControl x:Name="TabControlMain" TabHidden="TabControlMain_TabHidden">
+                        <dx:DXTabControl.View>
+                            <dx:TabControlMultiLineView/>
+                        </dx:DXTabControl.View>
+                    </dx:DXTabControl>
+                </dxdo:LayoutPanel>
+            </dxdo:LayoutGroup>
+        </dxdo:DockLayoutManager>
+    </Grid>
+   
+    
+    
+</Window>

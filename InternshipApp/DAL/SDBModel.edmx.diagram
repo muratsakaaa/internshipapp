@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="e290662d25dc4fcb9f5c24aa4ed22bb6" Name="Diagram1">
+        <EntityTypeShape EntityType="DAL.Kategori" Width="1.5" PointX="0.75" PointY="9" />
+        <EntityTypeShape EntityType="DAL.Musteri" Width="1.5" PointX="3" PointY="5.5" />
+        <EntityTypeShape EntityType="DAL.Personel" Width="1.5" PointX="3" PointY="1.125" />
+        <EntityTypeShape EntityType="DAL.Role" Width="1.5" PointX="0.75" PointY="1.75" />
+        <EntityTypeShape EntityType="DAL.Sati" Width="1.5" PointX="5.25" PointY="1" />
+        <EntityTypeShape EntityType="DAL.SatisTotal" Width="1.5" PointX="7.5" PointY="1.625" />
+        <EntityTypeShape EntityType="DAL.sysdiagram" Width="1.5" PointX="5.75" PointY="5.75" />
+        <EntityTypeShape EntityType="DAL.Urun" Width="1.5" PointX="3" PointY="8.375" />
+        <EntityTypeShape EntityType="DAL.Logging" Width="1.5" PointX="7.75" PointY="4.75" />
+        <AssociationConnector Association="DAL.FK_Product_Kategori" />
+        <AssociationConnector Association="DAL.FK_Satis_Musteri" />
+        <AssociationConnector Association="DAL.FK_Personel_Role" />
+        <AssociationConnector Association="DAL.FK_Satis_Personel" />
+        <AssociationConnector Association="DAL.FK_Satis_Urun" />
+        <AssociationConnector Association="DAL.FK_SatisTotal_Satis" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

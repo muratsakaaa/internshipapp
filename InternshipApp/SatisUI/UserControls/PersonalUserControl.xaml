@@ -1,0 +1,98 @@
+﻿<UserControl
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:SatisUI.UserControls"
+             xmlns:dxg="http://schemas.devexpress.com/winfx/2008/xaml/grid"
+    xmlns:dxe="http://schemas.devexpress.com/winfx/2008/xaml/editors" x:Class="SatisUI.Views.PersonalUserControl"
+             mc:Ignorable="d" 
+             d:DesignHeight="400" d:DesignWidth="700" Loaded="UserControl_Loaded">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="10"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid x:Name="gridPersonelForm" Background="Gray" Visibility="Collapsed" Grid.Row="0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="20"/>
+                <RowDefinition Height="40"/>
+                <RowDefinition Height="40"/>
+                <RowDefinition Height="40"/>
+                <RowDefinition Height="40"/>
+                <RowDefinition Height="40"/>
+                <RowDefinition Height="*"/>
+
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+
+                <ColumnDefinition Width="130"/>
+                <ColumnDefinition Width="70"/>
+                <ColumnDefinition Width="70"/>
+                <ColumnDefinition Width="70"/>
+                <ColumnDefinition Width="70"/>
+                <ColumnDefinition Width="70"/>
+                <ColumnDefinition Width="70"/>
+                <ColumnDefinition Width="*"/>
+
+            </Grid.ColumnDefinitions>
+
+            <!--<Label Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="6" Content="Personel Girişi Formu" Foreground="White" FontSize="20" HorizontalAlignment="Center" Margin="20"></Label>-->
+            <Separator Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="8"/>
+            <Separator Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="8"/>
+            <Separator Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="8"/>
+            <Separator Grid.Row="4" Grid.Column="0" Grid.ColumnSpan="8"/>
+            <Separator Grid.Row="5" Grid.Column="0" Grid.ColumnSpan="8"/>
+            <Separator Grid.Row="6" Grid.Column="0" Grid.ColumnSpan="8"/>
+            <Label Grid.Row="1" Grid.Column="0" Content="Personel Adı" Foreground="White" VerticalAlignment="Center" FontSize="14" HorizontalAlignment="Center"/>
+            <Label Grid.Row="2" Grid.Column="0" Content="Personel Soyadı" Foreground="White" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="14"/>
+            <Label Grid.Row="3" Grid.Column="0" Content="Personel Rolü" Foreground="White" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="14"/>
+            <Label Grid.Column="0" Grid.Row="4" Content="Personel Foto" Foreground="White" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="14"/>
+            <Label Grid.Column="0" Grid.Row="5" Content="Personel Username" Foreground="White" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="14"/>
+            <Label Grid.Column="0" Grid.Row="6" Content="Personel Password" Foreground="White" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="14"/>
+            <dxe:TextEdit  x:Name="personalName" Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="8" MaxHeight="25" Margin="10"/>
+            <dxe:TextEdit x:Name="personelLastname" Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="8" MaxHeight="25" Margin="10"/>
+            <dxe:TextEdit x:Name="personelUsername" Grid.Row="5" Grid.Column="1" Grid.ColumnSpan="8" MaxHeight="25" Margin="10">
+
+
+
+            </dxe:TextEdit>
+            <dxe:PasswordBoxEdit x:Name="personelPassword" Grid.Row="6" Grid.Column="1" Grid.ColumnSpan="8" MaxHeight="25" Margin="10">
+                
+                
+            </dxe:PasswordBoxEdit>
+            <dxe:CheckEdit x:Name="chkboxAdmin"  Tag="1" Grid.Row="3" Grid.Column="1" HorizontalAlignment="Right" VerticalAlignment="Center" MaxWidth="20" EditValueChanged="chkboxAdmin_EditValueChanged"/>
+            <dxe:CheckEdit x:Name="chkboxUser"  IsChecked="True" Tag="3" Grid.Row="3" Grid.Column="3" HorizontalAlignment="Right" VerticalAlignment="Center" MaxWidth="20" EditValueChanged="chkboxUser_EditValueChanged"/>
+            <dxe:CheckEdit x:Name="chkboxUser2" Tag="4" Grid.Row="3" Grid.Column="4" HorizontalAlignment="Right" VerticalAlignment="Center" MaxWidth="20" EditValueChanged="chkboxUser2_EditValueChanged" />
+            <TextBlock Grid.Row="3" Grid.Column="2" Text="Admin" Foreground="White" Margin="10,0,0,0" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+            <TextBlock Grid.Row="3" Grid.Column="4" Text="User" Foreground="White" Margin="10,0,0,0" HorizontalAlignment="left" VerticalAlignment="Center"/>
+            <TextBlock Grid.Row="3" Grid.Column="5" Text="User2" Foreground="White" Margin="10,0,0,0" HorizontalAlignment="left" VerticalAlignment="Center"/>
+            <dxe:TextEdit x:Name="Per_pic_url" Grid.Row="4" Grid.Column="1" Grid.ColumnSpan="3" MaxHeight="25" Margin="5"/>
+           
+            <Button x:Name="Per_pic_upload" Grid.Row="4" Grid.Column="4" Grid.ColumnSpan="2" MaxHeight="30" MaxWidth="70" Content="Yükle" FontSize="14" HorizontalAlignment="Left" Click="Per_pic_upload_Click" />
+            <dxe:ImageEdit x:Name="per_image" Grid.Row="4" Grid.Column="5" Margin="30,0,0,0" MaxWidth="40" HorizontalAlignment="Left"/>
+        </Grid>
+        <dxg:GridControl Grid.Row="2" x:Name="gridcontrol_personel" AutoGenerateColumns="None" EnableSmartColumnsGeneration="True"   SelectedItemChanged="GridControl_SelectedItemChanged">
+            <dxg:GridControl.View>
+                <dxg:TableView AllowPerPixelScrolling="True" NavigationStyle="Row" ShowTotalSummary="True" AllowColumnMoving="False" AllowResizing="False" AllowEditing="False" />
+            </dxg:GridControl.View>
+            <dxg:GridColumn FieldName="PersonelID" Visible="False"/>
+            <dxg:GridColumn AllowResizing="True" FieldName="PersonelAd" Header="Personel Adı" ShowInColumnChooser="False"/>
+            <dxg:GridColumn AllowMoving="False" FieldName="PersonelSoyad" Header="Personel Soyad" ShowInColumnChooser="False"/>
+            <dxg:GridColumn FieldName="PersonelRol" Header="Personel Rol" ShowInColumnChooser="False"/>
+            <dxg:GridColumn FieldName="PersonelUsername" ShowInColumnChooser="False"/>
+            <dxg:GridColumn FieldName="PersonelPic" Header="Personel Foto" ShowInColumnChooser="False">
+                <dxg:GridColumn.EditSettings>
+                    <dxe:ImageEditSettings MaxWidth="40"></dxe:ImageEditSettings>
+                </dxg:GridColumn.EditSettings>
+            </dxg:GridColumn>
+           
+        </dxg:GridControl>
+    </Grid>
+
+</UserControl>

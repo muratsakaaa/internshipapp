@@ -1,0 +1,51 @@
+C:\Users\user\source\repos\InternshipApp\DAL\bin\Debug\DAL.dll.config
+C:\Users\user\source\repos\InternshipApp\DAL\bin\Debug\DAL.dll
+C:\Users\user\source\repos\InternshipApp\DAL\bin\Debug\DAL.pdb
+C:\Users\user\source\repos\InternshipApp\DAL\bin\Debug\EntityFramework.dll
+C:\Users\user\source\repos\InternshipApp\DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\user\source\repos\InternshipApp\DAL\bin\Debug\EntityFramework.xml
+C:\Users\user\source\repos\InternshipApp\DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\user\source\repos\InternshipApp\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+C:\Users\user\source\repos\InternshipApp\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\InternshipApp\DAL\obj\Debug\DAL.dll
+C:\Users\user\source\repos\InternshipApp\DAL\obj\Debug\DAL.pdb
+C:\Users\user\source\repos\InternshipApp\DAL\bin\Debug\NLog.config
+C:\Users\user\source\repos\InternshipApp\DAL\bin\Debug\NLog.dll
+C:\Users\user\source\repos\InternshipApp\DAL\bin\Debug\NLog.xml
+C:\Users\user\source\repos\InternshipApp\DAL\bin\Debug\Logging.dll
+C:\Users\user\source\repos\InternshipApp\DAL\bin\Debug\Logging.pdb
+C:\Users\user\source\repos\InternshipApp\DAL\bin\Debug\Logging.dll.config
+C:\Users\Merve\Desktop\InternshipApp\DAL\bin\Debug\NLog.config
+C:\Users\Merve\Desktop\InternshipApp\DAL\bin\Debug\DAL.dll.config
+C:\Users\Merve\Desktop\InternshipApp\DAL\bin\Debug\DAL.dll
+C:\Users\Merve\Desktop\InternshipApp\DAL\bin\Debug\DAL.pdb
+C:\Users\Merve\Desktop\InternshipApp\DAL\bin\Debug\EntityFramework.dll
+C:\Users\Merve\Desktop\InternshipApp\DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Merve\Desktop\InternshipApp\DAL\bin\Debug\Logging.dll
+C:\Users\Merve\Desktop\InternshipApp\DAL\bin\Debug\NLog.dll
+C:\Users\Merve\Desktop\InternshipApp\DAL\bin\Debug\Logging.pdb
+C:\Users\Merve\Desktop\InternshipApp\DAL\bin\Debug\Logging.dll.config
+C:\Users\Merve\Desktop\InternshipApp\DAL\bin\Debug\EntityFramework.xml
+C:\Users\Merve\Desktop\InternshipApp\DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Merve\Desktop\InternshipApp\DAL\bin\Debug\NLog.xml
+C:\Users\Merve\Desktop\InternshipApp\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+C:\Users\Merve\Desktop\InternshipApp\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\Merve\Desktop\InternshipApp\DAL\obj\Debug\DAL.dll
+C:\Users\Merve\Desktop\InternshipApp\DAL\obj\Debug\DAL.pdb
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\DAL\bin\Debug\NLog.config
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\DAL\bin\Debug\DAL.dll.config
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\DAL\bin\Debug\DAL.dll
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\DAL\bin\Debug\DAL.pdb
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\DAL\bin\Debug\EntityFramework.dll
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\DAL\bin\Debug\Logging.dll
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\DAL\bin\Debug\NLog.dll
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\DAL\bin\Debug\Logging.pdb
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\DAL\bin\Debug\Logging.dll.config
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\DAL\bin\Debug\EntityFramework.xml
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\DAL\bin\Debug\NLog.xml
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\DAL\obj\Debug\DAL.dll
+C:\Users\Merve\Desktop\Murat Saka 2018 2nd Intership-Datamarket\InternshipApp\DAL\obj\Debug\DAL.pdb

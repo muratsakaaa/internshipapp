@@ -1,0 +1,90 @@
+﻿<UserControl
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:SatisUI.UserControls"
+             xmlns:dxg="http://schemas.devexpress.com/winfx/2008/xaml/grid"
+    xmlns:dxe="http://schemas.devexpress.com/winfx/2008/xaml/editors"
+    xmlns:dxb="http://schemas.devexpress.com/winfx/2008/xaml/bars" xmlns:dx="http://schemas.devexpress.com/winfx/2008/xaml/core" xmlns:DAL="clr-namespace:DAL;assembly=DAL" xmlns:ComponentModel="clr-namespace:System.ComponentModel;assembly=WindowsBase" x:Name="SepetEkrani"
+             x:Class="SatisUI.UserControls.UCSepet"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300" Loaded="SepetEkrani_Loaded">
+    <UserControl.Resources>
+        <dx:EntitySimpleDataSource x:Key="EntitySimpleDataSource" ContextType="{x:Type DAL:SDB}" Path="Musteris">
+            <dx:DesignDataManager.DesignData>
+                <dx:DesignDataSettings RowCount="5"/>
+            </dx:DesignDataManager.DesignData>
+        </dx:EntitySimpleDataSource>
+        <dx:EntityCollectionViewSource x:Key="EntityCollectionViewSource" Culture="en-US" ContextType="{x:Type DAL:SDB}" CollectionViewType="{x:Type ListCollectionView}" Path="Musteris">
+            <dx:DesignDataManager.DesignData>
+                <dx:DesignDataSettings RowCount="5"/>
+            </dx:DesignDataManager.DesignData>
+            <dx:EntityCollectionViewSource.GroupDescriptions>
+                <PropertyGroupDescription PropertyName="MusteriAdi"/>
+                <PropertyGroupDescription PropertyName="MusteriSoyadi"/>
+            </dx:EntityCollectionViewSource.GroupDescriptions>
+            <dx:EntityCollectionViewSource.SortDescriptions>
+                <ComponentModel:SortDescription Direction="Ascending" PropertyName="MusteriAdi"/>
+                <ComponentModel:SortDescription Direction="Ascending" PropertyName="MusteriSoyadi"/>
+            </dx:EntityCollectionViewSource.SortDescriptions>
+        </dx:EntityCollectionViewSource>
+        <dx:EntityServerModeDataSource x:Key="EntityServerModeDataSource" ContextType="{x:Type DAL:SDB}" DefaultSorting="{x:Null}" KeyExpression="MusteriID" Path="Musteris">
+            <dx:DesignDataManager.DesignData>
+                <dx:DesignDataSettings RowCount="5"/>
+            </dx:DesignDataManager.DesignData>
+        </dx:EntityServerModeDataSource>
+        <dx:EntitySimpleDataSource x:Key="EntitySimpleDataSource1" ContextType="{x:Type DAL:SDB}" Path="Musteris">
+            <dx:DesignDataManager.DesignData>
+                <dx:DesignDataSettings RowCount="5"/>
+            </dx:DesignDataManager.DesignData>
+        </dx:EntitySimpleDataSource>
+    </UserControl.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <dxe:ComboBoxEdit DisplayMember="musteriAdSoyad" Grid.Row="0" x:Name="combobox_musteri"  ValueMember="musteriId" HorizontalAlignment="Left" Width="300">
+            <dxe:ComboBoxEditSettings HorizontalContentAlignment="Center">
+            </dxe:ComboBoxEditSettings>
+        </dxe:ComboBoxEdit>
+        
+        <dxg:GridControl Grid.Row="1" x:Name="gridControl_sepet" AutoGenerateColumns="None" EnableSmartColumnsGeneration="True">
+            <dxg:GridControl.View>
+                <dxg:TableView AllowPerPixelScrolling="True" ShowTotalSummary="True" AllowEditing="True" AllowColumnMoving="False" AllowResizing="False" NavigationStyle="Cell"/>
+            </dxg:GridControl.View>
+            <dxg:GridColumn x:Name="gridcolumn_urunId" FieldName="UrunID" HorizontalHeaderContentAlignment="Center" Visible="False"/>
+            <dxg:GridColumn x:Name="gridcolumn_siparisad" AllowEditing="false" FieldName="UrunAd" Header="Ürün Adı" HorizontalHeaderContentAlignment="Center">
+                <dxg:GridColumn.EditSettings>
+                    <dxe:TextEditSettings HorizontalContentAlignment="Center"/>
+                </dxg:GridColumn.EditSettings>
+            </dxg:GridColumn>
+            <dxg:GridColumn x:Name="gridcolumn_siparisadet" HorizontalHeaderContentAlignment="Center" FieldName="urunAdet" Header="Sipariş Adedi" UnboundType="String" AllowCellMerge="False" AllowEditing="True" SortOrder="Ascending" SortIndex="0" Loaded="gridcolumn_siparisadet_Loaded">
+                <dxg:GridColumn.EditSettings>
+                    <dxe:TextEditSettings HorizontalContentAlignment="Center" MaskType="Numeric"/>
+                </dxg:GridColumn.EditSettings>
+            </dxg:GridColumn>
+            <dxg:GridColumn x:Name="gridcolumn_siparisfiyat" AllowEditing="false" FieldName="UrunFiyat" Header="Ürün Fiyatı(Birim)" HorizontalHeaderContentAlignment="Center" UnboundType="String">
+                <dxg:GridColumn.EditSettings>
+                    <dxe:TextEditSettings DisplayFormat="$0" MaskType="None" HorizontalContentAlignment="Center"/>
+                </dxg:GridColumn.EditSettings>
+            </dxg:GridColumn>
+            <dxg:GridColumn AllowEditing="false" FieldName="urunToplamFiyat" x:Name="gridcolumn_siparistotal" Header="Sipariş Toplamı" HorizontalHeaderContentAlignment="Center" UnboundType="Integer" UnboundExpression="[urunAdet] * [UrunFiyat]">
+                <dxg:GridColumn.EditSettings>
+                    <dxe:TextEditSettings DisplayFormat="$0" MaskType="None" HorizontalContentAlignment="Center"/>
+                </dxg:GridColumn.EditSettings>
+            </dxg:GridColumn>
+            <dxg:GridColumn>
+                <dxg:GridColumn.CellTemplate>
+                    <DataTemplate>
+                        <Button Click="DeleteRow_Click" Content="Delete" Foreground="Red"/>
+                    </DataTemplate>
+                </dxg:GridColumn.CellTemplate>
+
+            </dxg:GridColumn>
+        </dxg:GridControl>
+
+    </Grid>
+</UserControl>

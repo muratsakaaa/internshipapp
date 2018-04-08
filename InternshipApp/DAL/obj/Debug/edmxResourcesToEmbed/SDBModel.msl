@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="DALStoreContainer" CdmEntityContainer="SDB">
+    <EntitySetMapping Name="Kategoris">
+      <EntityTypeMapping TypeName="DAL.Kategori">
+        <MappingFragment StoreEntitySet="Kategori">
+          <ScalarProperty Name="KategoriAdi" ColumnName="KategoriAdi" />
+          <ScalarProperty Name="KategoriID" ColumnName="KategoriID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Musteris">
+      <EntityTypeMapping TypeName="DAL.Musteri">
+        <MappingFragment StoreEntitySet="Musteri">
+          <ScalarProperty Name="MusteriTelNo" ColumnName="MusteriTelNo" />
+          <ScalarProperty Name="MusteriAdres" ColumnName="MusteriAdres" />
+          <ScalarProperty Name="MusteriSoyadi" ColumnName="MusteriSoyadi" />
+          <ScalarProperty Name="MusteriAdi" ColumnName="MusteriAdi" />
+          <ScalarProperty Name="MusteriID" ColumnName="MusteriID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Personels">
+      <EntityTypeMapping TypeName="DAL.Personel">
+        <MappingFragment StoreEntitySet="Personel">
+          <ScalarProperty Name="PersonelPic" ColumnName="PersonelPic" />
+          <ScalarProperty Name="PersonelPassword" ColumnName="PersonelPassword" />
+          <ScalarProperty Name="PersonelUsername" ColumnName="PersonelUsername" />
+          <ScalarProperty Name="PersonelRoleID" ColumnName="PersonelRoleID" />
+          <ScalarProperty Name="PersonelSoyad" ColumnName="PersonelSoyad" />
+          <ScalarProperty Name="PersonelAd" ColumnName="PersonelAd" />
+          <ScalarProperty Name="PersonelID" ColumnName="PersonelID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Roles">
+      <EntityTypeMapping TypeName="DAL.Role">
+        <MappingFragment StoreEntitySet="Role">
+          <ScalarProperty Name="Role1" ColumnName="Role" />
+          <ScalarProperty Name="RoleID" ColumnName="RoleID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Satis">
+      <EntityTypeMapping TypeName="DAL.Sati">
+        <MappingFragment StoreEntitySet="Satis">
+          <ScalarProperty Name="SatisUrunID" ColumnName="SatisUrunID" />
+          <ScalarProperty Name="SatisAdet" ColumnName="SatisAdet" />
+          <ScalarProperty Name="SatisFiyat" ColumnName="SatisFiyat" />
+          <ScalarProperty Name="SatisTarih" ColumnName="SatisTarih" />
+          <ScalarProperty Name="SatisMusID" ColumnName="SatisMusID" />
+          <ScalarProperty Name="SatisPerID" ColumnName="SatisPerID" />
+          <ScalarProperty Name="SatisID" ColumnName="SatisID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SatisTotals">
+      <EntityTypeMapping TypeName="DAL.SatisTotal">
+        <MappingFragment StoreEntitySet="SatisTotal">
+          <ScalarProperty Name="SatısTop" ColumnName="SatısTop" />
+          <ScalarProperty Name="SatisID" ColumnName="SatisID" />
+          <ScalarProperty Name="SatisTotalID" ColumnName="SatisTotalID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sysdiagrams">
+      <EntityTypeMapping TypeName="DAL.sysdiagram">
+        <MappingFragment StoreEntitySet="sysdiagrams">
+          <ScalarProperty Name="definition" ColumnName="definition" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+          <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Uruns">
+      <EntityTypeMapping TypeName="DAL.Urun">
+        <MappingFragment StoreEntitySet="Urun">
+          <ScalarProperty Name="UrunPic" ColumnName="UrunPic" />
+          <ScalarProperty Name="UrunFiyat" ColumnName="UrunFiyat" />
+          <ScalarProperty Name="UrunStok" ColumnName="UrunStok" />
+          <ScalarProperty Name="UrunKod" ColumnName="UrunKod" />
+          <ScalarProperty Name="UrunKatID" ColumnName="UrunKatID" />
+          <ScalarProperty Name="UrunAd" ColumnName="UrunAd" />
+          <ScalarProperty Name="UrunID" ColumnName="UrunID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Loggings">
+      <EntityTypeMapping TypeName="DAL.Logging">
+        <MappingFragment StoreEntitySet="Logging">
+          <ScalarProperty Name="LoggingUnameApp" ColumnName="LoggingUnameApp" />
+          <ScalarProperty Name="LoggingMacname" ColumnName="LoggingMacname" />
+          <ScalarProperty Name="LoggingUnameMac" ColumnName="LoggingUnameMac" />
+          <ScalarProperty Name="LoggingMessage" ColumnName="LoggingMessage" />
+          <ScalarProperty Name="LoggingDate" ColumnName="LoggingDate" />
+          <ScalarProperty Name="LoggingLevel" ColumnName="LoggingLevel" />
+          <ScalarProperty Name="LoggingID" ColumnName="LoggingID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
